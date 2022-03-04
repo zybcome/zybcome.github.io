@@ -32,8 +32,6 @@ $("#public_header").html(`<header id="header" id="home">
                           <ul>
                             <li><a href="text-tool.html">国际化工具</a></li>
                             <li><a href="tiktok-tool.html">抖音无水印工具</a></li>
-                            <li><a href="pipixia-tool.html">皮皮虾无水印下载工具</a></li>
-                            <li><a href="juhe-tool.html">聚合无水印下载工具</a></li>
                           </ul>
                         </li>
                         <!-- <li><a href="about.html">About</a></li>
