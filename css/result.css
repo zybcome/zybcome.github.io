@@ -1,0 +1,242 @@
+.orange {
+    color: #ff7b00!important;
+}
+.result_all{
+    position: relative;    
+    height: 100%;
+}
+
+@media (min-width: 993px) {
+    .whois_search {
+        width: 100%;
+        height: 200px;
+        background: url(../img/whois_bg.jpg) center no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .whois_search_position {
+        position: absolute;
+        left: 50%;
+        top: 60%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 100%;
+        max-width: 1380px;
+    }
+    .whois_search_title {
+        font-size: 26px;
+        color: #ffc62f;
+        float: left;
+        line-height: 50px;
+        width: 232px;
+        font-weight: bold;
+        text-align: right;
+        padding-right: 40px;
+    }
+    .whois_search_p {
+        font-size: 16px;
+        color: #a4a4a5;
+    }
+    .whois_search_div {
+        width: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .whois_search_input {
+        padding: .375rem 1.75rem;
+        float: left;
+        width: 61%;
+        height: 50px;
+        line-height: 50px;
+        font-size: 16px;
+        box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.08);
+        border-radius: 0;
+    }
+    .whois_search_button {
+        float: left;
+        width: 15%;
+        height: 50px;
+        line-height: 46px;
+        border-radius: 0;
+        background: #506cd2;
+        color: #fff;
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .whois_search_button:hover {
+        background: #5971c7
+    }
+    .whois-center {
+        padding: 25px 0 22vh;
+    }
+    .whois-table {
+        max-width: 1380px;
+        width: 100%;
+        border: 1px solid #e6e6e6;
+        padding: 10px 30px;
+        min-height: 500px;
+        margin: 0 auto;
+    }
+    .whois-table .tab5 {
+        margin-top: 25px;
+        font-size: 16px;
+        width: 100%;
+    }
+    .whois-table .tab5 tr td {
+        border: 1px solid #d6dfea;
+        color: #555;
+        padding: 0px 5px;
+        height: 35px;
+        line-height: 35px;
+    }
+    .whois-table .tab5 tr th {
+        border: 1px solid #d6dfea;
+        color: #555;
+        font-size: 14px;
+    }
+    .whois-table .tab5 tr:nth-child(odd) {
+        background: #fdfdfe;
+    }
+    .whois-info-box {
+        line-height: 25px;
+        padding: 20px 0;
+        color: #535353;
+        font-size: 16px !important;
+    }
+    .whois-info-box>>>p{
+        font-size: 16px !important;
+    }
+    .whois-text {
+        position: relative;
+        border-bottom: solid 1px #e6e6e6;
+        padding: 10px 20px;
+        font-size: 18px;
+        overflow: hidden;
+    }
+    .whois-text .fr {
+        position: absolute;
+        font-size: 14px;
+        right: 0;
+        top: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .whois_search {
+        width: 100%;
+        height: 250px;
+        background: url(../img/whois_bg.jpg) center no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+    }
+    .whois_search_position {
+        position: absolute;
+        left: 50%;
+        top: 57%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .whois_search_title {
+        font-size: 24px;
+        color: #ffc62f;
+        float: left;
+        width: 100%;
+        margin: 10px 0;
+    }
+    .whois_search_p {
+        font-size: 14px;
+        color: #a4a4a5;
+    }
+    .whois_search_div {
+        width: 80vw;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .whois_search_input {
+        padding: .375rem 1.75rem;
+        float: left;
+        width: 100%;
+        height: 40px;
+        line-height: 50px;
+        font-size: 16px;
+        box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.08);
+        border-radius: 5px;
+    }
+    .whois_search_button {
+        width: 36%;
+        height: 40px;
+        line-height: 36px;
+        border-radius: 0;
+        background: #506cd2;
+        color: #fff;
+        border: none;
+        font-size: 14px;
+        cursor: pointer;
+        margin: 20px auto 0;
+        border-radius: 5px;
+    }
+    .whois_search_button:hover {
+        background: #5971c7
+    }
+    .whois-center {
+        padding: 25px 0 22vh;
+    }
+    .whois-table {
+        width: 95%;
+        border: 1px solid #e6e6e6;
+        border: none;
+        padding: 10px 2%;
+        min-height: 500px;
+        margin: 0 auto;
+    }
+    .whois-table .tab5 {
+        margin-top: 25px;
+    }
+    .whois-table .tab5 tr td {
+        border: 1px solid #d6dfea;
+        color: #555;
+        word-wrap:break-word;
+        /* white-space: nowrap; */
+        /* padding: 0px 5px; */
+        height: 35px;
+        line-height: 35px;
+    }
+    .whois-table .tab5 tr th {
+        border: 1px solid #d6dfea;
+        color: #555;
+        font-size: 14px;
+    }
+    .whois-table .tab5 tr:nth-child(odd) {
+        background: #fdfdfe;
+    }
+    .tab5 {
+        font-size: 14px;
+    }
+    .whois-text {
+        border-bottom: solid 1px #e6e6e6;
+        /* padding: 10px 20px; */
+        font-size: 18px;
+        overflow: hidden;
+    }
+    .whois-info-box {
+        font-size: 14px !important;
+        line-height: 25px;
+        padding: 20px 0;
+    }
+    .whois-info-box>>>p{
+        font-size: 14px !important;
+    }
+    .whois-text .fr {
+        display: block;
+        font-size: 12px;
+        margin-bottom: 10px;
+        line-height: 40px;
+    }
+    .navbar-brand img {
+        width: 60%;
+    }
+}
