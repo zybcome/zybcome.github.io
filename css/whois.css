@@ -59,8 +59,8 @@
 @media (min-width: 993px) {
     .whois_search {
         width: 100%;
-        height: 180px;
-        /* background: url(../img/header-bg.jpg) center; */
+        height: 500px;
+        background: url(../../static/img/whois_bg.jpg) center no-repeat;
         background-size: cover;
         /* margin-top: 64px; */
         position: relative;
@@ -79,7 +79,7 @@
     }
     .whois_search_p {
         font-size: 16px;
-        color: #333;
+        color: #a4a4a5;
     }
     .whois_search_div {
         width: 100%;
@@ -154,8 +154,8 @@
 @media (max-width: 992px) {
     .whois_search {
         width: 100%;
-        height: 180px;
-        /* background: url(../img/header-bg.jpg) center; */
+        height: 360px;
+        background: url(../../static/img/whois_bg.jpg) center no-repeat;
         background-size: cover;
         position: relative;
         width: 100%;
@@ -175,7 +175,7 @@
     }
     .whois_search_p {
         font-size: 14px;
-        color: #333;
+        color: #a4a4a5;
     }
     .whois_search_div {
         width: 80vw;
