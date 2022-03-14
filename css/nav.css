@@ -11,10 +11,10 @@ body {
     min-width: 6rem;
 }
 
-p {
+/* p {
     word-wrap: break-word;
     overflow: hidden;
-}
+} */
 .box-all {
     height: 100%;
     width: 100%;
@@ -39,7 +39,7 @@ p {
     z-index: 2;
     /* margin-left:-17px; */
     width: 100%;
-    background: linear-gradient(to right, rgb(0, 0, 0), rgb(102, 140, 245), rgb(0, 0, 0)) !important;
+    background: linear-gradient(to right, rgb(0, 0, 0),  rgb(0, 0, 0)) !important;
     transition: all 600ms ease;
 }
 
