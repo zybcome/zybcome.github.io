@@ -10,7 +10,7 @@
 }
 
 .num-embellish i {
-    background: url(../../static/img/num-embellish.png) no-repeat;
+    /* background: url(../../static/img/num-embellish.png) no-repeat; */
     display: inline-block;
     width: 42px;
     height: 70px;
